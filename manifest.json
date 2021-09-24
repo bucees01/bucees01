@@ -1,0 +1,23 @@
+{
+    "name" : "Define It!",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js" : [
+            "content2.js"
+        ]
+    }],
+    "background":{
+        "scripts": ["background2.js"]
+    },
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "default_icon": "testpic.png",
+        "default_popup": "dictAPI/index.html",
+        "default_title": "Looks up a definition"
+    }
+
+}
