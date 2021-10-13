@@ -1,5 +1,6 @@
-- 👋 Hi, I’m @bucees01, a student majoring in Computer Science and Civil Engineering at Rice University
-- 👀 I’m interested in ... Coding!
+Hi! This is "Define It!," a project built during HackRice 11.
+
+Define It! uses dictionaryapi.dev to obtain the definition and pronuciation of a highlighted word.
 
 <!---
 bucees01/bucees01 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
